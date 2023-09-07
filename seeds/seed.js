@@ -14,29 +14,27 @@ const seedDatabase = async () => {
 
     // Create users and thoughts
     const createdUsers = await db.User.create([
-      { userName: "user1", email: "user1@example.com" },
-      { userName: "user2", email: "user2@example.com" },
-      { userName: "user3", email: "user3@example.com" },
-      // Add more user objects as needed
+      { userName: "MichaelJordan", email: "michaelJordan@example.com" },
+      { userName: "MikeTyson", email: "MikeTyson@example.com" },
+      { userName: "MichaelJackson", email: "MichaelJackson@example.com" },
     ]);
 
     const createdThoughts = await db.Thought.create([
       {
-        thoughtText: "Thought 1",
-        username: "user1",
+        thoughtText: "I'm the best basketball player",
+        username: "MichaelJordan",
         userId: createdUsers[0]._id,
       },
       {
-        thoughtText: "Thought 2",
-        username: "user2",
+        thoughtText: "I'm Iron Mike",
+        username: "MikeTyson",
         userId: createdUsers[1]._id,
       },
       {
-        thoughtText: "Thought 3",
-        username: "user3",
+        thoughtText: "Hee Hee Hee",
+        username: "MichaelJackson",
         userId: createdUsers[2]._id,
       },
-      // Add more thought objects as needed
     ]);
 
     // Add thoughts to the users
@@ -52,21 +50,21 @@ const seedDatabase = async () => {
       const thought = createdThoughts[i];
       const reaction = [
         {
-          reactionBody: "Reaction 1",
-          username: "user1",
+          reactionBody: "Eeew",
+          username: "MichaelJordan",
           thoughtId: thought._id,
         },
         {
-          reactionBody: "Reaction 2",
-          username: "user2",
+          reactionBody: "Angry",
+          username: "MikeTyson",
           thoughtId: thought._id,
         },
         {
-          reactionBody: "Reaction 3",
-          username: "user3",
+          reactionBody: "LOL",
+          username: "MichaelJackson",
           thoughtId: thought._id,
         },
-        // Add more reaction objects as needed
+
       ];
       thought.reactions.push(...reaction);
       await thought.save();
