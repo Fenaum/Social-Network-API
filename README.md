@@ -58,11 +58,11 @@
   Email: hnguyen4497@outlook.com
   
   ## References 
-  https://github.com/Fenaum/ecom-backend
-  I used this to reference my REST API structure
+  [My Ecom-Backend App with SQL](https://github.com/Fenaum/ecom-backend)
+  I used this as a reference to my REST API structure.
 
-  https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial
-  I used this for reference for my setup
+  []MongoDB Express documentation](https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial)
+  I used this as a reference for setting up routes and controllers.
 
   https://javascript.info/date#:~:text=The%20string%20format%20should%20be,%2C%20minutes%2C%20seconds%20and%20milliseconds.
-  I used this for date format
+  I used this for date formatting.
