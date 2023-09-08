@@ -61,7 +61,7 @@
   [My Ecom-Backend App with SQL](https://github.com/Fenaum/ecom-backend)
   I used this as a reference to my REST API structure.
 
-  []MongoDB Express documentation](https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial)
+  [MongoDB Express documentation](https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial)
   I used this as a reference for setting up routes and controllers.
 
   https://javascript.info/date#:~:text=The%20string%20format%20should%20be,%2C%20minutes%2C%20seconds%20and%20milliseconds.
