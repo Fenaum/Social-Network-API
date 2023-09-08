@@ -15,7 +15,7 @@
 
   ## Description
 
-  This is a back-end server using MONGO to manage CRUD operation for a social media platform
+  This is a back-end server using MONGO to manage CRUD operation for a social media platform. This is just a back-end server that is set up for a potential social media application.
 
   ## Table of Contents
 
